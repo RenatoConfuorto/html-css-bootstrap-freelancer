@@ -1,0 +1,89 @@
+:root{
+  --header-height: 100px;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/* debug:  */
+.box{
+  /* height: 50px; */
+  background-color: blue;
+  /* border: 2px solid white; */
+}
+
+/* HEADER  */
+header{
+  /* debug: */
+  height: var(--header-height);
+  background-color: #2c3e50;
+  line-height: var(--header-height);
+  padding: 0 .75rem;
+  color: white;
+  font-size: 2.2rem;
+}
+
+.title{
+  text-transform: uppercase;;
+}
+
+/* MAIN  */
+.jumbotron{
+  height: 500px;
+  /* debug:  */
+  background-color: #1abc9c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.portfolio{
+  background-color: lightblue;
+  /* debug:  */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.portfolio-box{
+  /* debug:  */
+  height: 250px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
+.ms_container{
+  background-color: green;
+  height: 100%;
+  /* debug:  */
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* contact section  */
+.about{
+  height: 500px;
+  /* debug:  */
+  background-color: #1abc9c;
+  margin-bottom: 20px;
+}
+
+/* contact section  */
+.contact{
+  height: 350px;
+  /* debug:  */
+  margin-bottom: 20px;
+}
+
+/* FOOTER  */
+.footer-info{
+  height: 250px;
+  /* debug:  */
+  background-color: #3a546d;
+}
+
+.copyright{
+  height: 100px;
+  /* debug:  */
+  background-color: #2c3e50;
+}
