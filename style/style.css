@@ -10,10 +10,15 @@ html{
   font-size: 62.5%;
 }
 
+img{
+  width: 100%;
+}
+
 /* COMMON  */
 .ms_header-wrapper{
   text-transform: uppercase;
   font-weight: bold;
+  line-height: 2.2;
 }
 
 
@@ -81,11 +86,28 @@ header{
 
 
 /* MAIN  */
+
+section{
+  padding: 35px 0;
+}
+
 .jumbotron{
-  height: 500px;
+  /* height: 500px; */
   /* debug:  */
   background-color: var(--ms_primary-color);
   text-align: center;
+  color: white;
+}
+
+.jumbotron h2{
+  font-size: 4rem;
+}
+
+.jumbotron h3{
+  font-size: 2.2rem;
+}
+
+.ms_img-wrapper{
   margin-bottom: 20px;
 }
 
@@ -93,7 +115,6 @@ header{
   background-color: lightblue;
   /* debug:  */
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .portfolio-box{
@@ -119,14 +140,12 @@ header{
   height: 500px;
   /* debug:  */
   background-color: var(--ms_primary-color);
-  margin-bottom: 20px;
 }
 
 /* contact section  */
 .contact{
   height: 350px;
   /* debug:  */
-  margin-bottom: 20px;
 }
 
 /* FOOTER  */
