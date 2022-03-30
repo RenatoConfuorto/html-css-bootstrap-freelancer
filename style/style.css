@@ -166,16 +166,8 @@ section{
 }
 
 /* CONTACT SECTION  */
-.contact{
-  /* height: 350px; */
-  /* debug:  */
-}
 
 /* form section  */
-.ms_form-wrapper{
-  /* background-color: lightblue; */
-  /* debug:  */
-}
 
 .ms_input-wrapper{
   margin-bottom: 15px;
@@ -204,25 +196,49 @@ section{
 }
 
 /* FOOTER  */
+footer{
+  color: white;
+  text-align: center;
+}
+
 .footer-info{
-  /* height: 250px; */
-  /* debug:  */
   background-color: var(--ms_secondary-color-light);
 }
 
 .footer-box{
-  background-color: red;
-  /* margin-bottom: 10px; */
   font-size: 1.5rem;
+  padding: 30px 0;
+}
+
+.footer-info h3{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-info i{
+  margin: 10px 5px;
+  font-size: 1.5rem;
+  display: inline-block;
+  height: 4rem;
+  width: 4rem;
   border: 1px solid white;
-  /* debug:  */
+  border-radius: 50%;
+  line-height: 4rem;
+  text-align: center;
+  color: white;
+}
+
+.footer-info i:hover{
+  opacity: 0.6;
+}
+
+.footer-info a{
+  text-decoration: none;
 }
 
 .copyright{
-  /* height: 100px; */
-  /* debug:  */
   background-color: var(--ms_secondary-color);
   color: white;
-  text-align: center;
   padding: 20px 0;
 }
