@@ -88,9 +88,10 @@ header{
 /* MAIN  */
 
 section{
-  padding: 35px 0;
+  padding: 50px 0;
 }
 
+/* JUMBOTRON  */
 .jumbotron{
   /* height: 500px; */
   /* debug:  */
@@ -111,18 +112,25 @@ section{
   margin-bottom: 20px;
 }
 
+/* PORTFOLIO  */
 .portfolio{
-  background-color: lightblue;
+  /* background-color: lightblue; */
   /* debug:  */
   text-align: center;
 }
 
+.portfolio h2{
+  font-size: 3rem;
+}
+
 .portfolio-box{
-  height: 250px;
-  background-color: pink;
-  border: 1px solid black;
+  /* height: 250px; */
+  /* background-color: pink;
+  border: 1px solid black; */
   /* debug:  */
   /* margin: 20px 0; */
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .ms_container{
