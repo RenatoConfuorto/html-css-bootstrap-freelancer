@@ -18,22 +18,29 @@ img{
 .ms_header-wrapper{
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 2.2;
+  /* line-height: 2.2; */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.ms_header-wrapper h2{
+  font-weight: bold;
+  font-size: 3rem;
 }
 
 
 /* HEADER  */
 header{
-  /* debug: */
   height: var(--header-height);
   background-color: var(--ms_secondary-color);
   line-height: var(--header-height);
-  /* padding: 0 .75rem; */
+  padding: 0 .75rem;
   color: white;
   font-size: 2.2rem;
 }
 
-.ms_header-wrapper{
+header .ms_header-wrapper{
+  text-align: left;
   font-size: 2.5rem;
 }
 
@@ -93,8 +100,6 @@ section{
 
 /* JUMBOTRON  */
 .jumbotron{
-  /* height: 500px; */
-  /* debug:  */
   background-color: var(--ms_primary-color);
   text-align: center;
   color: white;
@@ -114,47 +119,64 @@ section{
 
 /* PORTFOLIO  */
 .portfolio{
-  /* background-color: lightblue; */
-  /* debug:  */
   text-align: center;
 }
 
-.portfolio h2{
-  font-size: 3rem;
-}
-
 .portfolio-box{
-  /* height: 250px; */
-  /* background-color: pink;
-  border: 1px solid black; */
-  /* debug:  */
-  /* margin: 20px 0; */
   border-radius: 15px;
   overflow: hidden;
 }
 
+/* ABOUT SECTION  */
 .ms_container{
-  background-color: green;
-  height: 100%;
   font-size: 2.2rem;
-  /* debug:  */
   width: 70%;
   margin: 0 auto;
-  text-align: center;
 }
 
 /* contact section  */
 .about{
-  height: 500px;
-  /* debug:  */
   background-color: var(--ms_primary-color);
+  color: white;
 }
 
-/* contact section  */
+.about-text{
+  margin-top: 20px;
+}
+
+.ms_btn-wrapper{
+  margin-top: 20px;
+  line-height: 2.8rem;
+  text-align: center;
+}
+
+.ms_btn-wrapper i{
+  margin-right: 10px;
+}
+
+.ms_btn-wrapper a{
+  font-size: 2rem;
+  border-radius: 5px;
+  padding: .75rem 1.75rem;
+}
+
+/* hover su btn  */
+.ms_btn-wrapper a:hover{
+  color: var(--ms_primary-color);
+}
+
+/* CONTACT SECTION  */
 .contact{
-  height: 350px;
+  /* height: 350px; */
   /* debug:  */
 }
+
+/* form section  */
+.ms_form-wrapper{
+  /* background-color: lightblue; */
+  /* debug:  */
+}
+
 
 /* FOOTER  */
 .footer-info{
