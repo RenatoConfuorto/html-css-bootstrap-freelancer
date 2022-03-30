@@ -123,8 +123,29 @@ section{
 }
 
 .portfolio-box{
+  position: relative;
   border-radius: 15px;
   overflow: hidden;
+}
+
+.portfolio-box .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-box:hover .overlay{
+  display: flex;
+  cursor: pointer;
 }
 
 /* ABOUT SECTION  */
