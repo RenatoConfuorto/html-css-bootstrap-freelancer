@@ -177,6 +177,31 @@ section{
   /* debug:  */
 }
 
+.ms_input-wrapper{
+  margin-bottom: 15px;
+}
+
+.ms_input-wrapper input,
+.ms_input-wrapper textarea{
+  border: 1px solid transparent;
+  border-bottom-color:var(--ms_secondary-color-light);
+  border-radius: none;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+
+.ms_input-wrapper input:focus,
+.ms_input-wrapper textarea:focus{
+  border-color: transparent;
+  border-bottom-color:var(--ms_secondary-color-light);
+  box-shadow: none;
+}
+
+.ms_form-btn{
+  background-color: var(--ms_primary-color);
+  border-color: transparent;
+  border-radius: 4px;
+}
 
 /* FOOTER  */
 .footer-info{
